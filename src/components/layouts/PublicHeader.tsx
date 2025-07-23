@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-
 import {
         NavigationMenu,
         NavigationMenuItem,
@@ -22,7 +21,7 @@ export default function PublicHeader() {
 
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
-                                    <Link href="/dashboard" className="font-bold text-xl"> 管理ページ </Link>
+                                    <Link href="/dashboard" className="font-bold text-xl"> ブログ </Link>
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                         </NavigationMenuList>

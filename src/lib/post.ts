@@ -8,12 +8,12 @@ export async function getPosts(){
                 select: {
                     name: true
                 }
-            },
-            orderBy: {
-                createdAt: 'desc'
             }
+        },
+        orderBy: {
+            createdAt: 'desc'
         }
-    })
+})
 
 
 }
